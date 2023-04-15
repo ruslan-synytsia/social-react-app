@@ -1,0 +1,211 @@
+.Dialogs {
+    height: 100vh;
+    margin-bottom: 2rem;
+}
+
+.Dialogs_List {
+    height: 80vh;
+    overflow-y: auto;
+    margin-top: .35rem;
+}
+
+.Dialogs_List_Item,
+.Dialogs_List_Item_Active {
+    box-shadow: 0 0 .25rem rgba(0,0,0,.25);
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    cursor: pointer;
+    padding: .5rem;
+    transition: background-color .5s ease, color .5s ease, box-shadow .5s ease;
+    width: 95%;
+}
+
+.Dialogs_List_Item:hover {
+    color: rgba(0,0,0,.75);
+}
+
+.Dialogs_List_Item_Active {
+    color: rgba(255,255,255,.95);
+    box-shadow: 0 0 .35rem rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.45);
+}
+
+.Dialogs_List_Item_img,
+.Dialogs_List_Item_img_online {
+    border-radius: 5%;
+    margin-right: 1rem;
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+}
+
+.Dialogs_List_Item_img_online {
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.75);
+}
+
+.Dialogs_Messages {
+    box-shadow: 0 0 .5rem rgba(0,0,0,.5);
+    height: 55vh;
+    overflow-y: auto;
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
+    scroll-behavior: smooth;
+}
+
+.Dialogs_void {
+    height: 100vh;
+    text-align: center;
+}
+
+.Dialogs_Messages_Item_out,
+.Dialogs_Messages_Item_into {
+    display: flex;
+    font-size: 1.25rem;
+}
+
+.Dialogs_Messages_Item_out {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    margin-right: 1rem;
+}
+
+.Dialogs_Messages_Item_into {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    margin-left: 1rem;
+}
+
+.Dialogs_Messages_Item_into div {
+    display: flex;
+    border: 1px solid gray;
+    padding: 1rem 3rem 2rem 1rem;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 0 0 .5rem rgba(0,0,0,.5);
+    text-shadow: 0 0 1rem rgba(255,255,255,.5);
+    color: rgba(255,255,255,.8);
+    border-radius: 5px 5px 0;
+}
+
+.Dialogs_Messages_Item_content {
+    position: relative;
+    min-width: 25%;
+    max-width: 80%;
+}
+
+.Dialogs_Messages_Item_content_Time {
+    font-size: .75rem;
+    position: absolute;
+    bottom: 0;
+    right: 1.25rem;
+}
+
+.Dialogs_Messages_Item_content_Date {
+    font-size: .75rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.Dialogs_Messages_Item_content_Text {
+    word-break: break-word;
+}
+
+.Dialogs_Messages_Item_into div img {
+    border-radius: 5%;
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.Dialogs_Messages_Item_out div {
+    display: flex;
+    border: 1px solid rgba(0,0,0,.25);
+    padding: 1.6rem 5rem 2rem 1rem;
+    border-radius: 5px 5px 5px 0;
+    text-shadow: 0 0 1rem rgba(0,0,0,.5);
+    box-shadow: 0 0 1rem rgba(0,0,0,.5);
+    color: rgba(0,0,0,.8);
+}
+
+.Dialogs_Send_message {
+    height: 20vh;
+}
+
+.Dialogs_Send_message_disable {
+    display: none;
+}
+
+.Dialogs_Send_message textarea {
+    border: none;
+    box-shadow: 0 0 .5rem rgba(0,0,0,.5);
+    height: 4.5rem;
+    width: 100%;
+    overflow-y: auto;
+    resize: none;
+    outline: none;
+    margin-bottom: 2vh;
+}
+
+.Dialogs_Send_message button {
+    font-weight: 700;
+    height: 3rem;
+    width: 10rem;
+    cursor: pointer;
+    padding: 0;
+    background-color: #666666;
+    color: rgb(255,255,255);
+    box-shadow: 0 0 .5rem rgba(0,0,0,.5);
+    border: 1px solid rgba(0,0,0,.25);
+    display: inline-block;
+    transition: all .5s ease;
+    text-align: center;
+}
+
+.Dialogs_Send_message button:hover {
+    background-color: #444444;
+    box-shadow: 0 0 .25rem rgba(0,0,0,.65);
+    border: 1px solid rgba(0,0,0,.15);
+}
+
+.Empty_List {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.Empty_List img {
+    display: inline-block;
+}
+
+.Empty_List span {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Dialogs {
+        margin-bottom: 5rem;
+    }
+
+    .Dialogs_List {
+        height: auto;
+        margin-bottom: 2vw;
+    }
+
+    .Dialogs_Messages, .Dialogs_Send_message {
+        width: 95%;
+        /*margin-left: 2vw;*/
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .Dialogs_void {
+        height: auto;
+    }
+}

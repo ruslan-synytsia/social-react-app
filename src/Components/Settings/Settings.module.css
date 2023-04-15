@@ -1,0 +1,191 @@
+.Settings_profile_wrapper {
+    margin-bottom: 2rem;
+}
+
+.Settings_profile_Title {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.Settings_profile_Item {}
+
+.Settings_profile_Item label {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.Settings_profile_Item_h3 {
+    margin-bottom: 1rem;
+}
+
+.Settings_profile_body {}
+
+.Settings_profile_body h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.Settings_profile_Job_description {}
+
+.Settings_profile_About_me {}
+
+.Settings_profile_Phone_number {}
+
+.Settings_profile_Skills {}
+
+.Settings_profile_Skills div {
+    margin-bottom: 2.5rem;
+}
+
+.Settings_profile_Projects {}
+
+.Settings_profile_Projects div {
+    margin-bottom: 2.5rem;
+}
+
+.Settings_profile_Projects ol {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Settings_profile_Projects_Link {}
+
+.Settings_profile_Projects_Skills {}
+
+.Settings_profile_Projects_List {}
+
+.Settings_profile_Projects_Group_buttons {}
+
+.Settings_profile_Experiernce {}
+
+.Settings_profile_Experiernce_tab {}
+
+.Settings_profile_Experiernce_tab div {
+    margin-bottom: 1.5rem;
+}
+
+.Settings_profile_Education {}
+
+.Settings_profile_Education div {
+    margin-bottom: 1.5rem;
+}
+
+
+/*Inputs*/
+.Settings_profile_body_input,
+.Settings_profile_body_textarea {
+    border: 1px solid rgba(0,0,0,.25);
+    font-size: 1rem;
+    height: 3.5rem;
+    margin-bottom: .5rem;
+    padding: .25rem;
+    width: 25rem;
+}
+
+.Settings_profile_body_textarea {
+    height: 9.5rem;
+    padding: 0;
+    margin-bottom: .25rem;
+    resize: none;
+}
+
+.Settings_profile_body_input:focus,
+.Settings_profile_body_textarea:focus {
+    outline: none;
+}
+
+/*Buttons*/
+.Settings_profile_Item {
+    border: none !important;
+}
+
+.Settings_profile_Item button {
+    background-color: #FFF !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: rgba(0,0,0,.75) !important;
+    outline: none !important;
+}
+
+.Settings_profile_Item ul {
+    padding-right: 0 !important;
+}
+
+.Settings_profile_Item ul > li {
+    margin: 1px !important;
+}
+
+.Settings_profile_Item h2 {
+    border: 1px solid rgba(0,0,0,.25) !important;
+}
+
+.Settings_profile_Item ul > li > button {
+    background-color: #FFF !important;
+    border: 1px solid rgba(0,0,0,.25) !important;
+    border-radius: 1px !important;
+    /*color: rgba(0,0,0,.75) !important;*/
+    font-size: 1rem;
+    outline: none !important;
+}
+
+button.Settings_profile_button {
+    background-color: rgba(0,0,0,.5) !important;
+    border: 1px solid rgba(0,0,0,.25);
+    color: #FFF !important;
+    display: block;
+    height: 3rem;
+    text-shadow: 0 0 5px rgba(0,0,0,.5) !important;
+}
+
+button.Settings_profile_button:hover {
+    background-color: rgba(0,0,0,.75) !important;
+    border: 1px solid rgba(0,0,0,.25);
+    color: #FFF !important;
+    display: block;
+    height: 3rem;
+    text-shadow: 0 0 5px rgba(0,0,0,.5) !important;
+}
+
+button.Settings_profile_button_disabled {
+    background-color: rgba(0,0,0,.15) !important;
+    border: 1px solid rgba(0,0,0,.125) !important;
+    color: rgba(0,0,0,.45) !important;
+    display: block;
+    height: 3rem;
+    text-shadow: 0 0 5px rgba(255,255,255,.5) !important;
+}
+
+button.Settings_profile_button,
+button.Settings_profile_button:hover,
+button.Settings_profile_button_disabled {
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    width: 10rem;
+    transition: all 1s ease;
+}
+
+.required {
+    color: #FF0000;
+}
+
+@media (max-width: 768px) {
+    .Settings_profile_body_input,
+    .Settings_profile_body_textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    button.Settings_profile_button,
+    button.Settings_profile_button:hover,
+    button.Settings_profile_button_disabled {
+        width: 100%;
+    }
+}
+
+
+
+

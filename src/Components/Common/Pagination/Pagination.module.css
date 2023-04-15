@@ -1,0 +1,38 @@
+.Pagination {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+.Pagination_Btn, .Pagination_Btn_Active,
+.Pagination_Btn_Prev,
+.Pagination_Btn_Next {
+    color: #666666;
+    display: inline-block;
+    cursor: pointer;
+    transition: all .25s ease;
+    text-align: center;
+    margin: .5rem .25rem 2rem .25rem;
+    padding: .25rem 1rem;
+}
+
+.Pagination_Btn_Active,
+.Pagination_Btn:hover,
+.Pagination_Btn_Prev:hover,
+.Pagination_Btn_Next:hover {
+    color: #444444;
+    font-weight: 600;
+}
+
+.Pagination_Btn_Prev,
+.Pagination_Btn_Next {
+
+}
+
+.Pagination_center {
+    display: inline-block;
+}
+
+.disabled {
+    display: none;
+}

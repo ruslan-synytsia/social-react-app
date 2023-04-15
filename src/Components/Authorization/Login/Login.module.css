@@ -1,0 +1,93 @@
+.Login_wrapper {
+    background: linear-gradient(0deg, #efefef, #fcfcfc 70%);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Login {
+    text-align: center;
+    color: #444444;
+}
+
+.Login h1 {
+    font-size: 2rem;
+}
+
+.Login img {
+    width: 10rem;
+}
+
+.Login_form {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.Login_form_el {
+    margin-bottom: .5rem;
+}
+
+.Login_form_el label {
+    display: block;
+    text-align: left;
+    font-size: .9rem;
+    margin-bottom: .25rem;
+}
+
+.Login_form_el input {
+    color: #444444;
+    font-size: 1rem;
+    width: 12rem;
+}
+
+.Login_form_el_error {
+    color: #FF0000;
+    width: 12rem;
+    position: absolute;
+    background: #fff;
+    padding: .15rem .25rem;
+}
+
+.Login_form_el_btn {
+    font-size: .9rem;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1rem;
+    color: #444444;
+    padding: .5rem;
+    border-radius: 1px;
+    border: 1px solid #8e8e8e;
+}
+
+.Link_Registration{
+    color: rgba(0,0,0,.85);
+    font-size: 1.5rem;
+    text-shadow: 0 0 .5rem rgba(0,0,0,.5);
+    text-decoration: none;
+}
+
+.Link_Registration:hover {
+    color: rgba(0,0,0,.85);
+    text-shadow: 0 0 .7rem rgba(0,0,0,.5);
+}
+
+.Submit {
+    height: 2rem;
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 2px;
+    transition: background-color .25s, ease;
+    cursor: pointer;
+    margin-top: 1rem;
+    line-height: 1.75rem;
+}
+
+.Submit:hover {
+    background-color: rgba(0,0,0,.1);
+}

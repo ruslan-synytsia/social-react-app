@@ -1,0 +1,34 @@
+.Footer {
+    background-color: #444444;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.Footer_Content {
+    padding: 0 3rem;
+}
+
+.Footer_Content h4,
+.Footer_Content p,
+.Footer_Content span {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    text-align: center;
+}
+
+.Footer_Content p,
+.Footer_Content span {
+    margin-bottom: .25rem;
+}
+
+.Footer_Content_div {
+    margin: 2rem 0 1rem 0;
+}
+
+.Footer_Content_div h4 {
+    font-weight: 600;
+}
+
+.Footer_Content_div span {
+    font-weight: 700;
+}

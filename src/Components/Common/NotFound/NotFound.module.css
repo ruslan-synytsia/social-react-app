@@ -1,0 +1,14 @@
+.Not_found {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Not_found_content {
+    margin-top: 2rem;
+}
+
+.Not_found img {
+    width: 10rem;
+    margin-bottom: 2rem;
+}

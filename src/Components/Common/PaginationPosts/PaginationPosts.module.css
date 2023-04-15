@@ -1,0 +1,47 @@
+.Pagination {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.Pagination_btn_Prev,
+.Pagination_btn_Next,
+.Pagination_btn_span {
+    cursor: pointer;
+}
+
+.Pagination_btns_group,
+.Pagination_btn_Prev,
+.Pagination_btn_Next,
+.Pagination_btn,
+.Pagination_btn_active {
+    display: inline-block;
+    margin: .5rem .25rem;
+}
+
+.Pagination_btn_span {
+    padding: .25rem 1rem;
+}
+
+.Pagination_btn_active,
+.Pagination_btn_span:hover,
+.Pagination_btn_Prev:hover,
+.Pagination_btn_Next:hover {
+    color: #444444;
+    font-weight: 600;
+}
+
+.Pagination_btns_group {}
+
+.Pagination_btn_Prev {}
+
+.Pagination_btn_Prev_hidden {
+    display: none;
+}
+
+.Pagination_btn_Next {}
+
+.Pagination_btn_Next_hidden {
+    display: none;
+}
+
+.Pagination_btn {}

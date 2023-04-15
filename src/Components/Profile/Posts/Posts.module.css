@@ -1,0 +1,114 @@
+.Posts {
+    padding: 0;
+    margin: 0 auto 7rem auto !important;
+}
+
+/*.Posts_List {*/
+/*    max-height: 100vh;*/
+/*    overflow-y: auto;*/
+/*}*/
+
+.Posts h2, .Posts h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.Posts label {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.addPost {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0,0,0,.55);
+    box-shadow: 0 0 .5rem rgba(0,0,0,.125);
+    height: 2.8rem;
+    margin-bottom: 1rem;
+    width: 70%;
+}
+
+.Posts textarea {
+    background-color: transparent;
+    color: #7F7F7F;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    height: 60%;
+    width: 100%;
+    margin-top: .5rem;
+    border: none;
+    padding-left: 1vw;
+    outline: none;
+    overflow: auto;
+    resize: none
+}
+
+.Posts_Send {
+    color: #ffffff;
+    background-color: #666666;
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    transition: background-color .5s ease;
+    margin-bottom: 1rem;
+}
+
+.Posts_Send:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+
+.Posts_Sorting_Button_Group {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    border-top: 1px solid rgba(0,0,0,.25);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.Posts_Sorting_Button_Group h2 {
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.Posts_Sorting_button,
+.Posts_Sorting_button_active {
+    background-color: #FFFFFF;
+    color: rgba(0,0,0,.55);
+    box-shadow: 0 0 .5rem rgba(0,0,0,.125);
+    border: 1px solid rgba(0,0,0,.55);
+    display: inline-block;
+    margin-right: .5rem;
+    padding: .25rem .75rem;
+    cursor: pointer;
+    transition: all .5s ease;
+    text-align: center;
+    width: 7rem;
+}
+
+.Posts_Sorting_button:hover,
+.Posts_Sorting_button_active {
+    background-color: #666666;
+    color: rgb(255,255,255);
+    box-shadow: 0 0 .25rem rgba(0,0,0,.65);
+    border: 1px solid rgba(0,0,0,.15);
+}
+
+@media screen and (max-width: 768px) {
+    .Posts {
+        width: 100%;
+        text-align: center;
+    }
+
+    .addPost {
+        width: 100%;
+    }
+}
+
+@media (max-width: 455px) {
+    .Posts_Sorting_button,
+    .Posts_Sorting_button:hover,
+    .Posts_Sorting_button_active {
+        margin: 2px;
+    }
+}

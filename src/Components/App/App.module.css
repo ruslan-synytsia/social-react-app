@@ -1,0 +1,45 @@
+.App {
+    color: #444444;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7rem;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+h1 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+ol, ul {padding: 1.2rem}
