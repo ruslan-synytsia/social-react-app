@@ -33,7 +33,6 @@ export const authAPI = {
 
 export const profileAPI = {
     getLogo () {
-        console.log(process.env.REACT_APP_URL)
         return instance.get(`/profile/logo`).then(response => response.data)
     },
 
