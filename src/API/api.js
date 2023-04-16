@@ -1,14 +1,7 @@
 import * as axios from "axios";
 
 const instance = axios.create({
-    baseURL: process.env.REACT_APP_API_URL,
-    withCredentials: true,
-    headers: {
-        'Access-Control-Allow-Origin': process.env.REACT_APP_URL,
-        'Access-Control-Allow-Credentials': true,
-        'Access-Control-Allow-Headers': '*',
-        'Access-Control-Allow-Methods': 'POST, GET, PUT, DELETE, OPTIONS'
-    }
+    baseURL: process.env.REACT_APP_API_URL
 });
 
 instance.interceptors.request.use((config) => {
