@@ -62,7 +62,7 @@ const Info = props => {
                             >
                                 <span>SEND MESSAGE</span>
                             </button>
-                            : null
+                            : {console.log(props.info)}
                     }
                 </Col>
                 <div className={styles.Info_Sidebar_contacts}>
