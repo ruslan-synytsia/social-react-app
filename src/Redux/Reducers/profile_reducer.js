@@ -46,6 +46,7 @@ const profile_reducer = (state = init, action) => {
         case SET_LOGO:
             return {...state, logo: action.logo};
         case SET_USER_DATA:
+            console.log(action.payload)
             return {...state, info: {...action.payload.info, contacts: action.payload.contacts, photos: action.payload.photos}};
         case ADD_POSTS:
             return {...state, posts: action.posts};
