@@ -39,6 +39,7 @@ const Info = props => {
 
     return (
         <Row className={styles.Info_Container}>
+        {console.log(props.info)}
             <Col lg={4} sm={12} md={6} className={styles.Info_Sidebar}>
                 <Col className={styles.Info_Sidebar_Avatar}>
                     <img src={props.userAvatar} alt="user photo"/>
@@ -62,7 +63,7 @@ const Info = props => {
                             >
                                 <span>SEND MESSAGE</span>
                             </button>
-                            : {console.log(props.info)}
+                            : null
                     }
                 </Col>
                 <div className={styles.Info_Sidebar_contacts}>
