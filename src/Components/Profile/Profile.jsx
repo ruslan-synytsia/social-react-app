@@ -40,7 +40,7 @@ const Profile = props => {
         <div>
             <Container>
                 <div className={styles.Profile_wrapper}>
-
+                    {console.log(props.info)}
                     <Info
                         isAuth={props.isAuth}
                         info={props.info}
