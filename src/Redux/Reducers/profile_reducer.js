@@ -14,7 +14,7 @@ const CHANGE_COUNT_PAGES = 'CHANGE_COUNT_PAGES';
 
 
 const init = {
-    connection: process.env.REACT_APP_SERVER_URL,
+    connection: process.env.REACT_APP_WEBSOCKET_URL,
     socketIO: null,
     logo: '',
     info: {
