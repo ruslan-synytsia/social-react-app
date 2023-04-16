@@ -46,7 +46,6 @@ const profile_reducer = (state = init, action) => {
         case SET_LOGO:
             return {...state, logo: action.logo};
         case SET_USER_DATA:
-            console.log(action.payload)
             return {...state, info: {...action.payload.info, contacts: action.payload.contacts, photos: action.payload.photos}};
         case ADD_POSTS:
             return {...state, posts: action.posts};
@@ -90,6 +89,7 @@ export const addSocketIO = (socketIO) => dispatch => {
 export const getUserData = (userId) => (dispatch) => {
     profileAPI.getUser(userId)
         .then(res => {
+        console.log(res)
             if (res.statusCode === 0) {
                 dispatch(setUserData(res.user));
                 dispatch(setCurrentPostPage(1));
