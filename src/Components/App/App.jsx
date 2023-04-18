@@ -47,23 +47,23 @@ const App = (props) => {
                             <Container>
                                 <Header logo={props.logo} isAuth={props.isAuth} />
                                 <Routes>
-                                    <Route path="/" element={<Login />} />
                                     <Route path="/login" element={<Login />} />
                                     <Route path="/registration" element={<RegistrationPage />} />
                                     <Route path="/profile/:userID" element={<Profile isAuth={props.isAuth} />} />
                                     <Route path="/users" element={<Users  isAuth={props.isAuth} />} />
                                     <Route path="/dialogs" element={<Dialogs  isAuth={props.isAuth} />} />
                                     <Route path="/settings" element={<Settings  isAuth={props.isAuth} />} />
+                                    <Route path="/" element={<Login />} />
                                 </Routes>
                             </Container> :
                             <Container>
                                 <Header logo={props.logo} isAuth={props.isAuth} initNav={props.isNavigation} />
                                 <Routes>
-                                    <Route path="/" element={<Login logo={props.logo} />} />
                                     <Route path="/login" element={<Login logo={props.logo} />} />
                                     <Route path="/registration" element={<RegistrationPage logo={props.logo} />} />
                                     <Route path="/profile/:userID" element={<Profile isAuth={props.isAuth} />} />
                                     <Route path="/:link" element={<NotFound logo={props.logo} />} />
+                                    <Route path="/" element={<Login logo={props.logo} />} />
                                 </Routes>
                             </Container>
                     }
